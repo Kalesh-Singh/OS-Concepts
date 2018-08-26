@@ -1,0 +1,1 @@
+cmd_/home/kalesh/Documents/OS-Concepts/Simple-Kernel-Module/simple.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/kalesh/Documents/OS-Concepts/Simple-Kernel-Module/simple.ko /home/kalesh/Documents/OS-Concepts/Simple-Kernel-Module/simple.o /home/kalesh/Documents/OS-Concepts/Simple-Kernel-Module/simple.mod.o ;  true
